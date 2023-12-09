@@ -51,7 +51,7 @@
           </div>
           <div class="small-img-col">
             <img
-              src="Image/Products/pr2.png"
+              src="Image/Products/prm1.png"
               width="100%"
               alt=""
               class="small-img"
@@ -59,7 +59,7 @@
           </div>
           <div class="small-img-col">
             <img
-              src="Image/Products/pr2.png"
+              src="Image/Products/pr4.jpg"
               width="100%"
               alt=""
               class="small-img"
@@ -67,7 +67,7 @@
           </div>
           <div class="small-img-col">
             <img
-              src="Image/Products/pr2.png"
+              src="Image/Products/pr1.png"
               width="100%"
               alt=""
               class="small-img"
@@ -80,18 +80,96 @@
         <h4>Men's Fashion T Shirt</h4>
         <h2>$139.000</h2>
         <select>
-            <option>Select Size</option>
-            <option>XL</option>
-            <option>XM</option>
-            <option>L</option>
-            <option>M</option>
-            <option>S</option>
-            <option>XS</option>
+          <option>Select Size</option>
+          <option>XL</option>
+          <option>XM</option>
+          <option>L</option>
+          <option>M</option>
+          <option>S</option>
+          <option>XS</option>
         </select>
-        <input type="number" value="1" >
-        <button>Add to Cart</button>
+        <input type="number" value="1" />
+        <button class="normal">Add to Cart</button>
         <h4>Product Details</h4>
-        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem facilis dolore optio laudantium iure illo, voluptas mollitia laborum unde, minima error et doloremque maxime alias culpa eligendi tenetur illum assumenda nihil blanditiis. Eaque ipsum, rerum porro maiores odit repellendus similique optio nobis quis facere voluptatibus velit cumque.</span>
+        <span
+          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+          facilis dolore optio laudantium iure illo, voluptas mollitia laborum
+          unde, minima error et doloremque maxime alias culpa eligendi tenetur
+          illum assumenda nihil blanditiis. Eaque ipsum, rerum porro maiores
+          odit repellendus similique optio nobis quis facere voluptatibus velit
+          cumque.</span
+        >
+      </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+      <h2>Featured Products</h2>
+      <p>Gym Collection New MaskDown Design</p>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="Image/Products/pr2.png" alt="" />
+          <div class="des">
+            <span>Ragnarok</span>
+            <h5>Compression T-shirt In Lycra</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4>$70.000</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="Image/Products/pr1.png" alt="" />
+          <div class="des">
+            <span>Ragnarok</span>
+            <h5>Compression T-shirt In Lycra</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4>$70.000</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="Image/Products/pr3.jpg" alt="" />
+          <div class="des">
+            <span>Ragnarok</span>
+            <h5>Compression T-shirt In Lycra</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4>$70.000</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="Image/Products/pr4.jpg" alt="" />
+          <div class="des">
+            <span>Ragnarok</span>
+            <h5>Compression T-shirt In Lycra</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4>$70.000</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
       </div>
     </section>
 
@@ -157,6 +235,28 @@
         <p>© 2023, Andres Garcia - Ecommerce Shopping</p>
       </div>
     </footer>
+
+    <script>
+      var MainImg = document.getElementById("MainImg");
+      var smalling = document.getElementsByClassName("small-img");
+
+    smalling[0].onclick = function(){
+        MainImg.src = smalling[0].src;
+    }
+    smalling[1].onclick = function(){
+        MainImg.src = smalling[1].src;
+    }
+
+    smalling[2].onclick = function(){
+        MainImg.src = smalling[2].src;
+    }
+
+    smalling[3].onclick = function(){
+        MainImg.src = smalling[3].src;
+    }
+
+
+    </script>
 
     <!-- =================== JS Files =====================-->
 
